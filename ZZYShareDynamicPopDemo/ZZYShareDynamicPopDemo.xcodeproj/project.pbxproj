@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044B33A71CA0FA23004550C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B33A61CA0FA23004550C6 /* main.m */; };
+		044B33AA1CA0FA23004550C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B33A91CA0FA23004550C6 /* AppDelegate.m */; };
+		044B33AD1CA0FA23004550C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B33AC1CA0FA23004550C6 /* ViewController.m */; };
+		044B33B01CA0FA23004550C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B33AE1CA0FA23004550C6 /* Main.storyboard */; };
+		044B33B21CA0FA23004550C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044B33B11CA0FA23004550C6 /* Assets.xcassets */; };
+		044B33B51CA0FA23004550C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B33B31CA0FA23004550C6 /* LaunchScreen.storyboard */; };
+		044B33C01CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B33BF1CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests.m */; };
+		044B33CB1CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B33CA1CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests.m */; };
+		044B33E01CA1149F004550C6 /* ZZYPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B33DF1CA1149F004550C6 /* ZZYPopView.m */; };
+		044B33E31CA11FCB004550C6 /* ZZYShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B33E21CA11FCB004550C6 /* ZZYShareButton.m */; };
+		044B33EC1CA13107004550C6 /* image0.png in Resources */ = {isa = PBXBuildFile; fileRef = 044B33E51CA13107004550C6 /* image0.png */; };
+		044B33ED1CA13107004550C6 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 044B33E61CA13107004550C6 /* image1.png */; };
+		044B33EE1CA13107004550C6 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 044B33E71CA13107004550C6 /* image2.png */; };
+		044B33EF1CA13107004550C6 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 044B33E81CA13107004550C6 /* image3.png */; };
+		044B33F01CA13107004550C6 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 044B33E91CA13107004550C6 /* image4.png */; };
+		044B33F11CA13107004550C6 /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = 044B33EA1CA13107004550C6 /* image5.png */; };
+		044B33F21CA13107004550C6 /* image6.png in Resources */ = {isa = PBXBuildFile; fileRef = 044B33EB1CA13107004550C6 /* image6.png */; };
+		044B33F71CA16E5C004550C6 /* UIView+ZZYViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B33F51CA16E5C004550C6 /* UIView+ZZYViewFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044B33BC1CA0FA23004550C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044B339A1CA0FA23004550C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044B33A11CA0FA23004550C6;
+			remoteInfo = ZZYShareDynamicPopDemo;
+		};
+		044B33C71CA0FA23004550C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044B339A1CA0FA23004550C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044B33A11CA0FA23004550C6;
+			remoteInfo = ZZYShareDynamicPopDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044B33A21CA0FA23004550C6 /* ZZYShareDynamicPopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZYShareDynamicPopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B33A61CA0FA23004550C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044B33A81CA0FA23004550C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044B33A91CA0FA23004550C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044B33AB1CA0FA23004550C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044B33AC1CA0FA23004550C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044B33AF1CA0FA23004550C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044B33B11CA0FA23004550C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044B33B41CA0FA23004550C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044B33B61CA0FA23004550C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044B33BB1CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZYShareDynamicPopDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B33BF1CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZYShareDynamicPopDemoTests.m; sourceTree = "<group>"; };
+		044B33C11CA0FA23004550C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044B33C61CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZYShareDynamicPopDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B33CA1CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZYShareDynamicPopDemoUITests.m; sourceTree = "<group>"; };
+		044B33CC1CA0FA23004550C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044B33DE1CA1149F004550C6 /* ZZYPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZYPopView.h; sourceTree = "<group>"; };
+		044B33DF1CA1149F004550C6 /* ZZYPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZYPopView.m; sourceTree = "<group>"; };
+		044B33E11CA11FCB004550C6 /* ZZYShareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZYShareButton.h; sourceTree = "<group>"; };
+		044B33E21CA11FCB004550C6 /* ZZYShareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZYShareButton.m; sourceTree = "<group>"; };
+		044B33E51CA13107004550C6 /* image0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image0.png; sourceTree = "<group>"; };
+		044B33E61CA13107004550C6 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		044B33E71CA13107004550C6 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		044B33E81CA13107004550C6 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		044B33E91CA13107004550C6 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		044B33EA1CA13107004550C6 /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
+		044B33EB1CA13107004550C6 /* image6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image6.png; sourceTree = "<group>"; };
+		044B33F41CA16E5C004550C6 /* UIView+ZZYViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZZYViewFrame.h"; sourceTree = "<group>"; };
+		044B33F51CA16E5C004550C6 /* UIView+ZZYViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZZYViewFrame.m"; sourceTree = "<group>"; };
+		044B33F61CA16E5C004550C6 /* ZZYConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZYConfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044B339F1CA0FA23004550C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B33B81CA0FA23004550C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B33C31CA0FA23004550C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044B33991CA0FA23004550C6 = {
+			isa = PBXGroup;
+			children = (
+				044B33A41CA0FA23004550C6 /* ZZYShareDynamicPopDemo */,
+				044B33BE1CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests */,
+				044B33C91CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests */,
+				044B33A31CA0FA23004550C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044B33A31CA0FA23004550C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044B33A21CA0FA23004550C6 /* ZZYShareDynamicPopDemo.app */,
+				044B33BB1CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests.xctest */,
+				044B33C61CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044B33A41CA0FA23004550C6 /* ZZYShareDynamicPopDemo */ = {
+			isa = PBXGroup;
+			children = (
+				044B33DC1CA0FC3C004550C6 /* ZZYDynamicPopComponent */,
+				044B33A81CA0FA23004550C6 /* AppDelegate.h */,
+				044B33A91CA0FA23004550C6 /* AppDelegate.m */,
+				044B33AB1CA0FA23004550C6 /* ViewController.h */,
+				044B33AC1CA0FA23004550C6 /* ViewController.m */,
+				044B33AE1CA0FA23004550C6 /* Main.storyboard */,
+				044B33B11CA0FA23004550C6 /* Assets.xcassets */,
+				044B33B31CA0FA23004550C6 /* LaunchScreen.storyboard */,
+				044B33B61CA0FA23004550C6 /* Info.plist */,
+				044B33A51CA0FA23004550C6 /* Supporting Files */,
+			);
+			path = ZZYShareDynamicPopDemo;
+			sourceTree = "<group>";
+		};
+		044B33A51CA0FA23004550C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044B33A61CA0FA23004550C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044B33BE1CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				044B33BF1CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests.m */,
+				044B33C11CA0FA23004550C6 /* Info.plist */,
+			);
+			path = ZZYShareDynamicPopDemoTests;
+			sourceTree = "<group>";
+		};
+		044B33C91CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044B33CA1CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests.m */,
+				044B33CC1CA0FA23004550C6 /* Info.plist */,
+			);
+			path = ZZYShareDynamicPopDemoUITests;
+			sourceTree = "<group>";
+		};
+		044B33DC1CA0FC3C004550C6 /* ZZYDynamicPopComponent */ = {
+			isa = PBXGroup;
+			children = (
+				044B33F31CA16E5C004550C6 /* tools */,
+				044B33E41CA130E8004550C6 /* image */,
+				044B33DE1CA1149F004550C6 /* ZZYPopView.h */,
+				044B33DF1CA1149F004550C6 /* ZZYPopView.m */,
+				044B33E11CA11FCB004550C6 /* ZZYShareButton.h */,
+				044B33E21CA11FCB004550C6 /* ZZYShareButton.m */,
+			);
+			path = ZZYDynamicPopComponent;
+			sourceTree = "<group>";
+		};
+		044B33E41CA130E8004550C6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				044B33E51CA13107004550C6 /* image0.png */,
+				044B33E61CA13107004550C6 /* image1.png */,
+				044B33E71CA13107004550C6 /* image2.png */,
+				044B33E81CA13107004550C6 /* image3.png */,
+				044B33E91CA13107004550C6 /* image4.png */,
+				044B33EA1CA13107004550C6 /* image5.png */,
+				044B33EB1CA13107004550C6 /* image6.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		044B33F31CA16E5C004550C6 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				044B33F41CA16E5C004550C6 /* UIView+ZZYViewFrame.h */,
+				044B33F51CA16E5C004550C6 /* UIView+ZZYViewFrame.m */,
+				044B33F61CA16E5C004550C6 /* ZZYConfig.h */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044B33A11CA0FA23004550C6 /* ZZYShareDynamicPopDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B33CF1CA0FA23004550C6 /* Build configuration list for PBXNativeTarget "ZZYShareDynamicPopDemo" */;
+			buildPhases = (
+				044B339E1CA0FA23004550C6 /* Sources */,
+				044B339F1CA0FA23004550C6 /* Frameworks */,
+				044B33A01CA0FA23004550C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZYShareDynamicPopDemo;
+			productName = ZZYShareDynamicPopDemo;
+			productReference = 044B33A21CA0FA23004550C6 /* ZZYShareDynamicPopDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044B33BA1CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B33D21CA0FA23004550C6 /* Build configuration list for PBXNativeTarget "ZZYShareDynamicPopDemoTests" */;
+			buildPhases = (
+				044B33B71CA0FA23004550C6 /* Sources */,
+				044B33B81CA0FA23004550C6 /* Frameworks */,
+				044B33B91CA0FA23004550C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044B33BD1CA0FA23004550C6 /* PBXTargetDependency */,
+			);
+			name = ZZYShareDynamicPopDemoTests;
+			productName = ZZYShareDynamicPopDemoTests;
+			productReference = 044B33BB1CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044B33C51CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B33D51CA0FA23004550C6 /* Build configuration list for PBXNativeTarget "ZZYShareDynamicPopDemoUITests" */;
+			buildPhases = (
+				044B33C21CA0FA23004550C6 /* Sources */,
+				044B33C31CA0FA23004550C6 /* Frameworks */,
+				044B33C41CA0FA23004550C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044B33C81CA0FA23004550C6 /* PBXTargetDependency */,
+			);
+			name = ZZYShareDynamicPopDemoUITests;
+			productName = ZZYShareDynamicPopDemoUITests;
+			productReference = 044B33C61CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044B339A1CA0FA23004550C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZZY;
+				TargetAttributes = {
+					044B33A11CA0FA23004550C6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					044B33BA1CA0FA23004550C6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 044B33A11CA0FA23004550C6;
+					};
+					044B33C51CA0FA23004550C6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 044B33A11CA0FA23004550C6;
+					};
+				};
+			};
+			buildConfigurationList = 044B339D1CA0FA23004550C6 /* Build configuration list for PBXProject "ZZYShareDynamicPopDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044B33991CA0FA23004550C6;
+			productRefGroup = 044B33A31CA0FA23004550C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044B33A11CA0FA23004550C6 /* ZZYShareDynamicPopDemo */,
+				044B33BA1CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests */,
+				044B33C51CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044B33A01CA0FA23004550C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B33EC1CA13107004550C6 /* image0.png in Resources */,
+				044B33ED1CA13107004550C6 /* image1.png in Resources */,
+				044B33EE1CA13107004550C6 /* image2.png in Resources */,
+				044B33B51CA0FA23004550C6 /* LaunchScreen.storyboard in Resources */,
+				044B33F01CA13107004550C6 /* image4.png in Resources */,
+				044B33F11CA13107004550C6 /* image5.png in Resources */,
+				044B33F21CA13107004550C6 /* image6.png in Resources */,
+				044B33B21CA0FA23004550C6 /* Assets.xcassets in Resources */,
+				044B33EF1CA13107004550C6 /* image3.png in Resources */,
+				044B33B01CA0FA23004550C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B33B91CA0FA23004550C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B33C41CA0FA23004550C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044B339E1CA0FA23004550C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B33E01CA1149F004550C6 /* ZZYPopView.m in Sources */,
+				044B33AD1CA0FA23004550C6 /* ViewController.m in Sources */,
+				044B33AA1CA0FA23004550C6 /* AppDelegate.m in Sources */,
+				044B33F71CA16E5C004550C6 /* UIView+ZZYViewFrame.m in Sources */,
+				044B33E31CA11FCB004550C6 /* ZZYShareButton.m in Sources */,
+				044B33A71CA0FA23004550C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B33B71CA0FA23004550C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B33C01CA0FA23004550C6 /* ZZYShareDynamicPopDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B33C21CA0FA23004550C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B33CB1CA0FA23004550C6 /* ZZYShareDynamicPopDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044B33BD1CA0FA23004550C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044B33A11CA0FA23004550C6 /* ZZYShareDynamicPopDemo */;
+			targetProxy = 044B33BC1CA0FA23004550C6 /* PBXContainerItemProxy */;
+		};
+		044B33C81CA0FA23004550C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044B33A11CA0FA23004550C6 /* ZZYShareDynamicPopDemo */;
+			targetProxy = 044B33C71CA0FA23004550C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044B33AE1CA0FA23004550C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044B33AF1CA0FA23004550C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044B33B31CA0FA23004550C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044B33B41CA0FA23004550C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044B33CD1CA0FA23004550C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044B33CE1CA0FA23004550C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044B33D01CA0FA23004550C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZZYShareDynamicPopDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZZY.ZZYShareDynamicPopDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		044B33D11CA0FA23004550C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZZYShareDynamicPopDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZZY.ZZYShareDynamicPopDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		044B33D31CA0FA23004550C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZYShareDynamicPopDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZZY.ZZYShareDynamicPopDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZYShareDynamicPopDemo.app/ZZYShareDynamicPopDemo";
+			};
+			name = Debug;
+		};
+		044B33D41CA0FA23004550C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZYShareDynamicPopDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZZY.ZZYShareDynamicPopDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZYShareDynamicPopDemo.app/ZZYShareDynamicPopDemo";
+			};
+			name = Release;
+		};
+		044B33D61CA0FA23004550C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZYShareDynamicPopDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZZY.ZZYShareDynamicPopDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZYShareDynamicPopDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		044B33D71CA0FA23004550C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZYShareDynamicPopDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZZY.ZZYShareDynamicPopDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZYShareDynamicPopDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044B339D1CA0FA23004550C6 /* Build configuration list for PBXProject "ZZYShareDynamicPopDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B33CD1CA0FA23004550C6 /* Debug */,
+				044B33CE1CA0FA23004550C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044B33CF1CA0FA23004550C6 /* Build configuration list for PBXNativeTarget "ZZYShareDynamicPopDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B33D01CA0FA23004550C6 /* Debug */,
+				044B33D11CA0FA23004550C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044B33D21CA0FA23004550C6 /* Build configuration list for PBXNativeTarget "ZZYShareDynamicPopDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B33D31CA0FA23004550C6 /* Debug */,
+				044B33D41CA0FA23004550C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044B33D51CA0FA23004550C6 /* Build configuration list for PBXNativeTarget "ZZYShareDynamicPopDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B33D61CA0FA23004550C6 /* Debug */,
+				044B33D71CA0FA23004550C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044B339A1CA0FA23004550C6 /* Project object */;
+}
